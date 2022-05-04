@@ -1,0 +1,73 @@
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--nav bar-->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+           <li class="active"><a href="#"></a>Home</li>
+           <li><a href="#"></a>Tour</li>
+           <li><a href="#"></a>Explore</li>
+           <li><a href="#"></a>About</li>
+           <li class="ctn" href="#"></a>contact</li>
+
+        </ul>
+         <img src="./img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore  The  Wildlife</h2>
+            <div class="line"></div>
+            <h1>Wonderful Nature</h1>
+            <a href="#" class="ctn">learn more</a>
+        </div>
+    </header>
+
+       <!-- == Events == -->
+       <section class="events">
+           <div class="title">
+               <h1>Discover The Forest Life</h1>
+               <div class="line"></div>
+           </div>
+           <div class="row">
+             <div class="col">
+                  <img src="./img/1.jpg" alt="">
+                  <h4>Reindeer</h4>
+                  <p>A type of large brownish wild animal that eats grass and lives in artic regions</p>
+                   <a href="#" class="ctn">learn more</a> 
+            </div>    
+
+            <div class="col">
+                  <img src="./img/5.jpg" alt="">
+                  <h4>Rhinoceros</h4>
+                  <p>A large animal from africa or asia, with a thick skin and with one or two horns on its nose</p>
+                  <a href="#" class="ctn">learn more</a> 
+            </div>       
+        </section>
+
+      <section class="explore">
+       <div class="explore-content">
+        <h1>This is wildlife </h1>
+        <div class="line"></div>
+        <p>Wildlife - traditionally refers to undomesticated animals species, but has come to include all organisms that grow or live wild in an area without being introduced by humans. wildlife was also synonymous to game: those birds and mammals that were hunted for sport. wildlife can be found in all ecosystems.</p>
+         <a href="#" class="ctn">learn more</a>
+       </div>
+        </section>
+       <section class="footer">
+           <p>chhattisgarh,bilaspur | India | phone-123456789 | Email; contact@example.com</p>
+           <p>Copyright © 2022 all right reserved</p>
+        </section>        
+
+      <script>
+        const menubtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menubtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+      </script>
+</body>
+</html>
